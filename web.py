@@ -35,8 +35,8 @@ def completed_todos():
 
 todos = functions.get_todos()
 
-st.title("My Todo App")
-st.subheader("This is my todo app.")
+st.title("2Do")
+st.subheader("Minimalistic todo app.")
 st.write('This app is to increase your <font color="blue">productivity</font>.',
          unsafe_allow_html=True)
 
