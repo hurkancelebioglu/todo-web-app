@@ -13,7 +13,6 @@ def completed_todos():
     """remove items to be deleted from todos and return list of items to be deleted"""
     del_key_list = []
 
-    global todos
     #  use copy of reversed list for popping during iteration
     todos_copy = todos[:]
     todos_copy.reverse()
